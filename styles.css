@@ -1,0 +1,9 @@
+/* Ajustar el tamaño de las tarjetas en el carrito */
+.card {
+    height: 100%;
+}
+
+/* Ajustar el tamaño del botón "checkout" */
+.btn {
+    font-size: 1.5rem;
+}

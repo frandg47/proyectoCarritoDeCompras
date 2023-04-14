@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <!-- Importar Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>Carrito de compras</h1>
+        <hr>
+        <!-- Productos en el carrito -->
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 1</h5>
+                        <p class="card-text">Descripción del producto 1</p>
+                        <p class="card-text">Precio: $10</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 2</h5>
+                        <p class="card-text">Descripción del producto 2</p>
+                        <p class="card-text">Precio: $20</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 3</h5>
+                        <p class="card-text">Descripción del producto 3</p>
+                        <p class="card-text">Precio: $30</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table mt-5">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto 1</td>
+                    <td><input type="number" value="1" class="form-control"></td>
+                    <td>$10.00</td>
+                    <td>$10.00</td>
+                    <td><button class="btn btn-danger">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                    <td><input type="number" value="2" class="form-control"></td>
+                    <td>$20.00</td>
+                    <td>$40.00</td>
+                    <td><button class="btn btn-danger">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Producto 3</td>
+                    <td><input type="number" value="3" class="form-control"></td>
+                    <td>$10.00</td>
+                    <td>$30.00</td>
+                    <td><button class="btn btn-danger">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td><strong>Total: $80.00</strong></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-right mb-5">
+            <button class="btn btn-primary">Continuar comprando</button>
+            <button class="btn btn-success">Realizar pago</button>
+        </div>
+    </div>
+
+
+    <!-- Importar jQuery y Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-K8fjGhsZSSiu6vMY9XQs8n/xnKsFOgFeEAqLhG3W8JsjKthoagfKjVmP9o7V/Sl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-+d0P83KQAe5CK5JgZ87zwhB+Ai4W4xn4ew0hCzJUXU+R6CwS+sU4z6YJYgq3qNdV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
